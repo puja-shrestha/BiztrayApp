@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+        <!--SPLASH SCREEN-->
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <!--Default rating-->
+    <!--<style name="RatingBar" parent="Theme.AppCompat">-->
+        <!--<item name="colorControlNormal">@color/colorOrange</item>-->
+        <!--<item name="colorControlActivated">@color/colorPrimary</item>-->
+    <!--</style>-->
+
+    <!--customized rating-->
+    <style name="myRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/my_ratingbar</item>
+        <item name="android:minHeight">10dip</item>
+        <item name="android:maxHeight">10dip</item>
+    </style>
+
+
+
+    <!--SPLASH SCREEN-->
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.OrangeAccent">
+        <item name="colorAccent">@color/colorOrange</item> <!-- Whatever color you want-->
+    </style>
+
+
+</resources>

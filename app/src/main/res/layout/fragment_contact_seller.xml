@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="@color/colorWhite"
+    android:foreground="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Product Information"
+                android:textSize="@dimen/medium_text_size"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGrey"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="0dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:id="@+id/image"
+                    android:src="@drawable/one"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text="Decorative art"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/medium_text_size"
+                    android:layout_weight="1"
+                    android:id="@+id/heading"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/sans"
+                    android:paddingLeft="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text="Reference site Reference site about Reference site about,giving information"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/small_sixteen_text_size"
+                    android:layout_weight="3"
+                    android:id="@+id/description"
+                    android:fontFamily="@font/sans"
+                    android:paddingLeft="10dp"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGrey"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+           >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+                <!--<TextView-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="@dimen/layout_height_register"-->
+                    <!--android:text="Full Name     :"-->
+                    <!--android:fontFamily="@font/sans"-->
+                    <!--android:textColor="@color/black"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:textSize="@dimen/medium_text_size"/>-->
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/layout_height_register"
+                    android:hint="Full name"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1.5"
+                    android:background="@drawable/button_backgroung_rectangle"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+                <!--<TextView-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="@dimen/layout_height_register"-->
+                    <!--android:text="Contact No   :"-->
+                    <!--android:fontFamily="@font/sans"-->
+                    <!--android:textColor="@color/black" android:layout_weight="1"-->
+                    <!--android:textSize="@dimen/medium_text_size"/>-->
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/layout_height_register"
+                    android:hint="Phone number"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1.5"
+                    android:background="@drawable/button_backgroung_rectangle"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <!--<TextView-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="@dimen/layout_height_register"-->
+                    <!--android:text="Email             :"-->
+                    <!--android:fontFamily="@font/sans"-->
+                    <!--android:textColor="@color/black"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:textSize="@dimen/medium_text_size"/>-->
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/layout_height_register"
+                    android:hint="Email address"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1.5"
+                    android:background="@drawable/button_backgroung_rectangle"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Quantity"
+                    android:id="@+id/txt_quantity"
+                    android:textSize="@dimen/medium_text_size"
+                    android:fontFamily="@font/sans"
+                    android:textColor="@color/black"/>
+                <EditText
+                    android:id="@+id/quantity"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:hint="1"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:background="@drawable/button_backgroung_rectangle"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_marginLeft="65dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Unit"
+                    android:id="@+id/txt_unit"
+                    android:textSize="@dimen/medium_text_size"
+                    android:fontFamily="@font/sans"
+                    android:textColor="@color/black"/>
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorGrey"
+                    android:layout_marginRight="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGrey"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="14dp"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Message"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/sans"
+                android:textSize="@dimen/medium_text_size"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:inputType="textMultiLine"
+                android:lines="8"
+                android:minLines="6"
+                android:gravity="top|left"
+                android:maxLines="10"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:scrollbars="vertical"
+                android:background="@drawable/button_backgroung_rectangle"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please enter your message"
+                android:fontFamily="@font/sans"
+                android:textSize="@dimen/small_sixteen_text_size"
+                android:textColor="@color/colorBlack"/>
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_marginTop="30dp">-->
+            <!--<EditText-->
+            <!--android:inputType="textMultiLine"-->
+            <!--android:gravity="top|left"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:scrollbars="vertical"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@drawable/button_backgroung_rectangle"/>-->
+
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Please enter your email"-->
+            <!--android:fontFamily="@font/sans"-->
+            <!--android:layout_weight="1"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:textSize="@dimen/small_sixteen_text_size"-->
+            <!--android:textColor="@color/colorBlack"/>-->
+            <!--</LinearLayout>-->
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Make sure email address is entered correctly"-->
+            <!--android:fontFamily="@font/sans"-->
+            <!--android:textSize="@dimen/small_sixteen_text_size"-->
+            <!--android:layout_marginTop="6dp"-->
+            <!--android:textColor="@color/colorBlack"/>-->
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorOrange"
+                android:text="Send Inquiry Now"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/medium_text_size"
+                android:textAllCaps="false"
+                android:fontFamily="@font/sans"
+                android:layout_marginTop="26dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

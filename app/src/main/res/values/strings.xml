@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">MobileUI</string>
+
+    <string name="login_with_facebook">Login with Facebook</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="password_not_matched">Password not matched ?</string>
+    <string name="login">Login</string>
+    <string name="do_you_have_an_account_signup">Do you have an account?</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="coupon">COUPON</string>
+    <string name="enter_your_coupon_code_here">Enter your coupon code here</string>
+    <string name="use">USE</string>
+    <string name="subtotal">SUBTOTAL</string>
+
+    <!--spinner-->
+    <string-array name="names">
+        <item>Size</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+
+    <!--contact seller spinner-->
+    <string-array name="unit">
+        <item>Size</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+
+
+    <string name="nav_header_title">Puja Shrestha</string>
+    <string name="nav_header_subtitle">csta.puja@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <string name="securitykey">TYISbduysdgy5456bhnvvpBBmsayjutrewsxcz</string>
+
+
+    <!--SPLASH SCREEN-->
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <!--ListView-->
+    <string name="action_settings">Settings</string>
+</resources>

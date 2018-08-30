@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".fragments.OrderHistoryDetailsFragment">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+      <TextView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="2"
+          android:text="Order No"
+          android:textSize="@dimen/medium_text_size"
+          android:fontFamily="@font/sans"
+          android:textColor="@color/black"/>
+
+      <TextView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text=":"
+          android:textSize="@dimen/medium_text_size"
+          android:fontFamily="@font/sans"
+          android:textColor="@color/black"/>
+
+      <TextView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="3"
+          android:text="1-57-2018-06-17"
+          android:textSize="@dimen/medium_text_size"
+          android:fontFamily="@font/sans"
+          android:textColor="@color/black"/>
+
+  </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Order Date"
+            android:textSize="@dimen/medium_text_size"
+            android:fontFamily="@font/sans"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=":"
+            android:textSize="@dimen/medium_text_size"
+            android:fontFamily="@font/sans"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Sun 17 Jun 2018"
+            android:textSize="@dimen/medium_text_size"
+            android:fontFamily="@font/sans"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Order Status"
+            android:textSize="@dimen/medium_text_size"
+            android:fontFamily="@font/sans"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=":"
+            android:textSize="@dimen/medium_text_size"
+            android:fontFamily="@font/sans"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="pending"
+            android:textSize="@dimen/medium_text_size"
+            android:fontFamily="@font/sans"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+</LinearLayout>
